@@ -19,6 +19,7 @@ body{
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
 }
+
 .cabecalho{
     padding: 2% 0% 0% 15%;
 }
@@ -86,7 +87,7 @@ body{
     color: var(--cor-secundaria);
     font-family: var(--fonte-secundaria);
 }
-.apresentacao__links__link:hover{
+.apresentacao__links__navegacao:hover{
     background-color: var(--cor-hover);
 }
 .apresentacao__imagem{
@@ -104,7 +105,7 @@ body{
 
 @media (max-width: 1200px) {
     .cabecalho{
-        padding: 10%;
+         padding: 10%;  
     }
     .cabecalho__menu{
         justify-content: center;
