@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <title>Exemplo de Box-Sizing</title>
+  <style>
+    .caixa {
+      width: 300px;
+      border: 5px solid #333;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+
+    .content-box {
+      box-sizing: content-box;
+      background-color: #fdd;
+    }
+
+    .border-box {
+      box-sizing: border-box;
+      background-color: #dfd;
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="caixa content-box">
+    <img src="testv1.png" alt="Imagem exemplo">
+    <p>Esta é uma caixa com <strong>box-sizing: content-box</strong>.</p>
+  </div>
+
+  <div class="caixa border-box">
+    <img src="testv1.png" alt="Imagem exemplo">
+    <p>Esta é uma caixa com <strong>box-sizing: border-box</strong>.</p>
+  </div>
+
+</body>
+</html>
